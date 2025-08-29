@@ -11,7 +11,7 @@
 <body>
     <div class="container py-3">
         <h1>Lista 1 - Exercício 1 (Soma)</h1>
-        <form method="post" action="resposta_exercicio1">
+        <form method="post" action="/resposta_exercicio1">
             @CSRF
             <div class="mb-3">
                 <label for="num1" class="form-label">Insira o primeiro número</label>
