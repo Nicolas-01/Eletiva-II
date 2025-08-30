@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Exericicio7Controller;
+use App\Http\Controllers\Exercicio7Controller;
 
-Route::get("/exercicio7", [Exericicio7Controller::class, "exercicio7"]);
+Route::get("/exercicio7", [Exercicio7Controller::class, "exercicio7"]);
 
-Route::post("/respExercicio7", [Exericicio7Controller::class, "resposta_exercicio7"]);
+Route::post("/respExercicio7", [Exercicio7Controller::class, "resposta_exercicio7"]);

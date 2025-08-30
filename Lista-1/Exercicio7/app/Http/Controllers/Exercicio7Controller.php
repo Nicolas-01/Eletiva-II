@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Exericicio7Controller extends Controller
+class Exercicio7Controller extends Controller
 {
     public function exercicio7()
     {
